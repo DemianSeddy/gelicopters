@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f94e56b3-87b0-4194-b9db-8ccd830633fa">
+  <producedTypes>
+    <objectType typeId="3b0a31a9-f0c1-4faf-9104-35dc8ebfad75" valueTypeId="d20fd5de-e907-4940-8994-0eb62d6c388d"/>
+    <refType typeId="aa245dda-be3b-4ffd-913d-19edbbd32077" valueTypeId="c980c01b-7938-473c-bd31-62e5008a8e2e"/>
+    <selectionType typeId="3c41fd92-a83e-4df4-a439-1371a38346ae" valueTypeId="8a26646f-710d-4d7d-8c53-9e0d1cab7b5b"/>
+    <listType typeId="309b1082-077f-422e-bde4-d3f4ed797267" valueTypeId="433daf2d-773c-4b2f-9577-4b40b33b996c"/>
+    <managerType typeId="158b385d-8262-4933-a03f-622e541e7fb9" valueTypeId="8d64967d-7e52-4a97-b54b-74c18a2985e0"/>
+  </producedTypes>
+  <name>Валюта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Валюта</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Валюта.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Валюта.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="b69de55b-def3-48a5-89dc-a70ee3ff6eca">
+      <name>Доллар</name>
+      <description>Доллар</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="78476ffa-75a7-4b1f-a4e9-771e879d6460">
+      <name>Евро</name>
+      <description>Евро</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Валюта.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="60d5e913-5180-4dca-8f38-2eca05ebaa85">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

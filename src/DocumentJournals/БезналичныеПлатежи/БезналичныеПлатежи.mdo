@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9f09e8c-2cc7-464a-8fad-683e368d1d01">
+  <producedTypes>
+    <selectionType typeId="088a6a11-aa2c-4a66-87e7-77774d4b5988" valueTypeId="863cf47c-9e9a-44c8-adca-c1b1e0b91441"/>
+    <listType typeId="d0883a13-07bb-49c4-af1b-2822d2be5b21" valueTypeId="cd29b06f-d64a-4915-9270-7652fc18a602"/>
+    <managerType typeId="9de3a939-bd84-4de4-b11b-740a1d192d67" valueTypeId="d1072e91-cbd3-4682-ab48-d6ab1625aa32"/>
+  </producedTypes>
+  <name>БезналичныеПлатежи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Безналичные платежи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ПоступлениеНаБанковскийСчет</registeredDocuments>
+  <registeredDocuments>Document.СписаниеСБанковскогоСчета</registeredDocuments>
+  <columns uuid="f12538ca-4309-418e-85ca-36ddf2e765b6">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <references>Document.СписаниеСБанковскогоСчета.Attribute.Поставщик</references>
+    <references>Document.ПоступлениеНаБанковскийСчет.Attribute.Покупатель</references>
+  </columns>
+  <columns uuid="ecaa97ce-b0d4-4ec8-b22b-9a2c1794c19c">
+    <name>СчетКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет контрагента</value>
+    </synonym>
+    <references>Document.СписаниеСБанковскогоСчета.Attribute.СчетКонтрагента</references>
+    <references>Document.ПоступлениеНаБанковскийСчет.Attribute.СчетКонтрагента</references>
+  </columns>
+  <columns uuid="34c516f7-30d8-421d-b05e-e0f93583d216">
+    <name>СчетОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет организации</value>
+    </synonym>
+    <references>Document.СписаниеСБанковскогоСчета.Attribute.СчетОрганизации</references>
+    <references>Document.ПоступлениеНаБанковскийСчет.Attribute.СчетОрганизации</references>
+  </columns>
+  <columns uuid="0733ac76-5a61-4d14-8bae-352913922f78">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <references>Document.СписаниеСБанковскогоСчета.Attribute.Сумма</references>
+    <references>Document.ПоступлениеНаБанковскийСчет.Attribute.Сумма</references>
+  </columns>
+</mdclass:DocumentJournal>

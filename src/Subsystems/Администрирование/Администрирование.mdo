@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf1f88d5-ae04-4013-8cc0-ab2a734ed195">
+  <name>Администрирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Администрирование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Constant.НесколькоСкладов</content>
+  <content>Constant.НесколькоВалют</content>
+  <content>FunctionalOption.ФункциональнаяОпцияНесколькоСкладов</content>
+  <content>FunctionalOption.ФункциональнаяОпцияИспользоватьНесколькоВалют</content>
+  <content>Constant.СкладПоУмолчанию</content>
+  <content>Constant.ВалютаПоУмолчанию</content>
+  <content>DataProcessor.КонсольПрограммиста</content>
+  <content>DataProcessor.КонсольЗапросов</content>
+</mdclass:Subsystem>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e01426ce-d5b1-440d-8737-875a1efd9efb">
+  <name>ВертолетыПродажаОбслуживание</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вертолеты продажа обслуживание</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="0844aff3-0e4e-43b8-b71a-645863657545"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="857da65d-bc02-44fc-b80c-c7b528d59d28"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="fa534341-4d59-4a1b-99ca-3ba521286e81"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="68ef717c-17cc-41f6-b821-679e345eed34"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="5cc64d86-f34b-4609-921a-d83de77ecad8"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="ec384fbc-9986-4035-a5aa-27e626c7020d"/>
+  <configurationExtensionCompatibilityMode>8.3.15</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <logo/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.5</compatibilityMode>
+  <languages uuid="7035aabb-51fc-4808-961a-5248827d6253">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.НСИ</subsystems>
+  <subsystems>Subsystem.Казначейство</subsystems>
+  <subsystems>Subsystem.Закупки</subsystems>
+  <subsystems>Subsystem.Продажи</subsystems>
+  <subsystems>Subsystem.Журналы</subsystems>
+  <subsystems>Subsystem.Зарплата</subsystems>
+  <subsystems>Subsystem.Администрирование</subsystems>
+  <commonPictures>CommonPicture.Закупки</commonPictures>
+  <commonPictures>CommonPicture.Продажи</commonPictures>
+  <commonPictures>CommonPicture.НСИ</commonPictures>
+  <commonPictures>CommonPicture.Подсистемы</commonPictures>
+  <commonPictures>CommonPicture.Банк</commonPictures>
+  <commonPictures>CommonPicture.Касса</commonPictures>
+  <commonPictures>CommonPicture.Принтер</commonPictures>
+  <roles>Role.Администратор</roles>
+  <roles>Role.Кладовщик</roles>
+  <roles>Role.ЗавМаг</roles>
+  <filterCriteria>FilterCriterion.ДокументыКонтрагента</filterCriteria>
+  <filterCriteria>FilterCriterion.ДокументыСНоменклатурой</filterCriteria>
+  <functionalOptions>FunctionalOption.ФункциональнаяОпцияНесколькоСкладов</functionalOptions>
+  <functionalOptions>FunctionalOption.ФункциональнаяОпцияИспользоватьНесколькоВалют</functionalOptions>
+  <commonCommands>CommonCommand.Приветствие</commonCommands>
+  <commonCommands>CommonCommand.Комплимент</commonCommands>
+  <commonCommands>CommonCommand.УдалениеЭлементовНоменклатуры</commonCommands>
+  <constants>Constant.НесколькоСкладов</constants>
+  <constants>Constant.НесколькоВалют</constants>
+  <constants>Constant.СкладПоУмолчанию</constants>
+  <constants>Constant.ВалютаПоУмолчанию</constants>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Банки</catalogs>
+  <catalogs>Catalog.БанковскиеСчета</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.ВидыЦен</catalogs>
+  <catalogs>Catalog.Валюта</catalogs>
+  <catalogs>Catalog.ХарактеристикиНоменклатуры</catalogs>
+  <catalogs>Catalog.ЗначенияСвойствНоменклатуры</catalogs>
+  <documents>Document.СписаниеСБанковскогоСчета</documents>
+  <documents>Document.ПоступлениеТоваров</documents>
+  <documents>Document.ЗаказПоставщику</documents>
+  <documents>Document.ОплатаЧерезКассу</documents>
+  <documents>Document.РеализацияТоваров</documents>
+  <documents>Document.ЗаказПокупателя</documents>
+  <documents>Document.ПоступлениеНаБанковскийСчет</documents>
+  <documents>Document.ПоступлениеЧерезКассу</documents>
+  <documents>Document.УстановкаОкладов</documents>
+  <documents>Document.УстановкаЦен</documents>
+  <documents>Document.УстановкаКурсовВалют</documents>
+  <documentJournals>DocumentJournal.СкладскиеДокументы</documentJournals>
+  <documentJournals>DocumentJournal.БезналичныеПлатежи</documentJournals>
+  <documentJournals>DocumentJournal.КассовыеДокументы</documentJournals>
+  <documentJournals>DocumentJournal.Зарплата</documentJournals>
+  <enums>Enum.ВидНоменклатуры</enums>
+  <enums>Enum.Подразделение</enums>
+  <reports>Report.ОтчетКонрагенты</reports>
+  <reports>Report.Остатки</reports>
+  <reports>Report.Закупки</reports>
+  <reports>Report.Продажи</reports>
+  <reports>Report.ЦеныПоставщиков</reports>
+  <dataProcessors>DataProcessor.ВнешняяОбработкаУдалениеЭлементов</dataProcessors>
+  <dataProcessors>DataProcessor.КонсольПрограммиста</dataProcessors>
+  <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
+  <informationRegisters>InformationRegister.Штрихкоды</informationRegisters>
+  <informationRegisters>InformationRegister.ОкладыСотрудников</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныПоставщиков</informationRegisters>
+  <informationRegisters>InformationRegister.Валюты</informationRegisters>
+  <informationRegisters>InformationRegister.ХарактеристикиНоменулатуры</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ТоварыНаСкладах</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОбъемыЗакупок</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОбъёмыПродаж</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СвойстваНоменклатуры</chartsOfCharacteristicTypes>
+</mdclass:Configuration>

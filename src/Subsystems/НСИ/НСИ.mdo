@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a76cba62-fbac-47fa-9ddd-2f10d89da175">
+  <name>НСИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>НСИ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.НСИ</picture>
+  </picture>
+  <content>CommonCommand.Комплимент</content>
+  <content>CommonPicture.НСИ</content>
+  <content>AccumulationRegister.ОбъемыЗакупок</content>
+  <content>AccumulationRegister.ТоварыНаСкладах</content>
+  <content>InformationRegister.Штрихкоды</content>
+  <content>FilterCriterion.ДокументыСНоменклатурой</content>
+  <content>FilterCriterion.ДокументыКонтрагента</content>
+  <content>Catalog.ХарактеристикиНоменклатуры</content>
+  <content>ChartOfCharacteristicTypes.СвойстваНоменклатуры</content>
+  <content>InformationRegister.ХарактеристикиНоменулатуры</content>
+  <content>Catalog.ЗначенияСвойствНоменклатуры</content>
+  <subsystems>Справочники</subsystems>
+  <subsystems>Отчеты</subsystems>
+  <subsystems>Журналы</subsystems>
+  <subsystems>Регистры</subsystems>
+</mdclass:Subsystem>

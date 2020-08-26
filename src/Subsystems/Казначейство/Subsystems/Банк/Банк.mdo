@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4de7006d-95f3-4d5c-9c80-d08fc9b0f02d">
+  <name>Банк</name>
+  <synonym>
+    <key>ru</key>
+    <value>Банк</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Банк</picture>
+  </picture>
+  <content>Catalog.Банки</content>
+  <content>Catalog.БанковскиеСчета</content>
+  <content>Document.СписаниеСБанковскогоСчета</content>
+  <content>Document.ПоступлениеНаБанковскийСчет</content>
+  <parentSubsystem>Subsystem.Казначейство</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="61d4b6a9-4a6e-40c9-b8a4-b723ef5567c7">
+  <name>УдалениеЭлементовНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удаление элементов номенклатуры</value>
+  </synonym>
+  <group>ActionsPanelTools</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

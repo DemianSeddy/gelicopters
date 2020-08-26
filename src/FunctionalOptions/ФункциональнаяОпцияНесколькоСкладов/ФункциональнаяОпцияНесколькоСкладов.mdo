@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ffdb703-e1be-4550-bd88-897535b0ca56">
+  <name>ФункциональнаяОпцияНесколькоСкладов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Функциональная опция несколько складов</value>
+  </synonym>
+  <location>Constant.НесколькоСкладов</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.Склады</content>
+  <content>Document.ПоступлениеТоваров.Attribute.Склад</content>
+  <content>Document.ЗаказПоставщику.Attribute.Склад</content>
+  <content>Document.РеализацияТоваров.Attribute.Склад</content>
+  <content>Document.ЗаказПокупателя.Attribute.Склад</content>
+  <content>AccumulationRegister.ТоварыНаСкладах.Dimension.Склады</content>
+  <content>AccumulationRegister.ОбъемыЗакупок.Dimension.Склады</content>
+  <content>AccumulationRegister.ОбъёмыПродаж.Dimension.Склады</content>
+  <content>Constant.СкладПоУмолчанию</content>
+</mdclass:FunctionalOption>

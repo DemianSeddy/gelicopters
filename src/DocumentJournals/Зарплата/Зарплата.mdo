@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="76f66713-51ae-43a1-b5fa-eaf097fbc212">
+  <producedTypes>
+    <selectionType typeId="67ef217a-6f22-4ebe-942f-f836ec813982" valueTypeId="c5a75cbf-51a0-4db6-a6ed-871760e69178"/>
+    <listType typeId="7aee219d-7f43-4793-8502-513be4f69e55" valueTypeId="828ed157-4ec6-4ffa-adb4-69c050e5d9cd"/>
+    <managerType typeId="5c04e938-1010-4125-b24c-fd9ebe7e2f9e" valueTypeId="b206a730-6cda-467e-9017-f47c6bec129f"/>
+  </producedTypes>
+  <name>Зарплата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зарплата</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.УстановкаОкладов</registeredDocuments>
+</mdclass:DocumentJournal>

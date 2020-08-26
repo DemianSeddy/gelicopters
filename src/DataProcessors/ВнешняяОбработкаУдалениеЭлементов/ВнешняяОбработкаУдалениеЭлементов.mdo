@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="edc094c0-8576-478f-ac69-b25f7c41499b">
+  <producedTypes>
+    <objectType typeId="7d50ef07-af4e-4b57-9628-196be7801575" valueTypeId="b6c9af5e-152b-436a-b6fc-571c0b900d68"/>
+    <managerType typeId="c6edf55c-cf74-4488-a97b-f1571aa0dedb" valueTypeId="071742c9-0a94-4206-a5e1-54d6b676f725"/>
+  </producedTypes>
+  <name>ВнешняяОбработкаУдалениеЭлементов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Внешняя обработка удаление элементов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВнешняяОбработкаУдалениеЭлементов.Form.Форма</defaultForm>
+  <forms uuid="5fbd40bd-dec5-4217-adfc-1667dc657dd9">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

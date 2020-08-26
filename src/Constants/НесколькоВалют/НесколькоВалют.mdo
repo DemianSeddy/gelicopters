@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b834c78-7016-4eb3-b667-5f601988d8e9">
+  <producedTypes>
+    <managerType typeId="cac925da-5094-456b-8773-adc28ab33f6e" valueTypeId="91a942b2-84f9-4a47-8d5d-70b4912a75c6"/>
+    <valueManagerType typeId="d3418244-d0e4-43ba-8678-a80cfd9a7530" valueTypeId="b82d473e-45f9-4f82-a8e1-d06b171b488a"/>
+    <valueKeyType typeId="8bb2cd91-3deb-5e03-8475-7795ed91b375" valueTypeId="be99b918-27f4-5374-ae0c-9b4e402ece86"/>
+  </producedTypes>
+  <name>НесколькоВалют</name>
+  <synonym>
+    <key>ru</key>
+    <value>Несколько валют</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

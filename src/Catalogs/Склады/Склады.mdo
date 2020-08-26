@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cbfe3414-0adc-40a9-b1d6-a7d08ee556cf">
+  <producedTypes>
+    <objectType typeId="4bdd6f8f-4efb-446b-a043-2a05de0b2a05" valueTypeId="e3aa503f-d9f1-4f62-a34c-c3167a941d9f"/>
+    <refType typeId="4a601b50-0d09-45cd-97f0-5a3b3f3ba3ff" valueTypeId="2019555a-cfe2-44b6-8237-779dcda70a7d"/>
+    <selectionType typeId="a31ea961-9229-48c9-a26a-b6291b09077c" valueTypeId="5fe233ae-774d-4298-9d93-5b5fc7d8a64e"/>
+    <listType typeId="083b28b0-28f5-4231-baf3-c51ae312cc77" valueTypeId="d0bd0858-e31d-4fe6-a881-cb1f7d5cbf6d"/>
+    <managerType typeId="d7f42d7c-00c7-476b-a695-dfe5263a6243" valueTypeId="2dce45fa-342a-4460-8343-25110fab3bef"/>
+  </producedTypes>
+  <name>Склады</name>
+  <synonym>
+    <key>ru</key>
+    <value>Склады</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Склады.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Склады.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="4fd0d4cd-2a55-4ad3-8d9f-1f656894ea55">
+      <name>Оптовый</name>
+      <description>Оптовый</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="2ad9f187-66ae-4d22-b6e8-1bccee96093e">
+    <name>Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

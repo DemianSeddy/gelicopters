@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd4d698d-6e49-4ae0-a02f-e0331153efb8">
+  <producedTypes>
+    <objectType typeId="62f14ff6-fac5-41f9-b981-d10745aaf267" valueTypeId="b464a862-a7a7-47bf-be81-13ea48da7087"/>
+    <refType typeId="50a50311-5c40-42a3-acd8-e28e8f83efd1" valueTypeId="0a58c26b-72fe-4189-ac42-bbb0a5964958"/>
+    <selectionType typeId="28e16745-fbec-4f6b-b00a-6e1670bfd711" valueTypeId="d059c991-7e16-436f-8471-f3c52d905acc"/>
+    <listType typeId="cf0fbf9d-50b0-4531-b1be-4c7011ac06c8" valueTypeId="e25c3958-33ec-4646-951b-2432460d504d"/>
+    <managerType typeId="80e1bd16-40ca-47d6-951f-be323a4335e4" valueTypeId="a8213369-4d8b-4acf-9791-22ebe42f1f4d"/>
+  </producedTypes>
+  <name>ХарактеристикиНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Характеристики номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ХарактеристикиНоменклатуры.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ХарактеристикиНоменклатуры.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <characteristics>
+    <characteristicTypes>ChartOfCharacteristicTypes.СвойстваНоменклатуры</characteristicTypes>
+    <keyField>ChartOfCharacteristicTypes.СвойстваНоменклатуры.StandardAttribute.Ref</keyField>
+    <typesFilterField>-1</typesFilterField>
+    <typesFilterValue xsi:type="core:UndefinedValue"/>
+    <characteristicValues>InformationRegister.ХарактеристикиНоменулатуры</characteristicValues>
+    <objectField>InformationRegister.ХарактеристикиНоменулатуры.Dimension.Характеристика</objectField>
+    <typeField>InformationRegister.ХарактеристикиНоменулатуры.Dimension.Свойство</typeField>
+    <valueField>-1</valueField>
+  </characteristics>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Номенклатура</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

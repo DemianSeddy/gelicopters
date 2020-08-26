@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8c55624-b8c4-47c6-8805-4276c2c73a8c">
+  <name>ФункциональнаяОпцияИспользоватьНесколькоВалют</name>
+  <synonym>
+    <key>ru</key>
+    <value>Функциональная опция использовать несколько валют</value>
+  </synonym>
+  <location>Constant.НесколькоВалют</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.Валюта</content>
+  <content>Document.УстановкаКурсовВалют</content>
+  <content>InformationRegister.Валюты</content>
+  <content>Constant.СкладПоУмолчанию</content>
+  <content>Document.СписаниеСБанковскогоСчета.Attribute.Валюта</content>
+  <content>Document.ЗаказПоставщику.Attribute.Валюта</content>
+  <content>Document.ОплатаЧерезКассу.Attribute.Валюта</content>
+</mdclass:FunctionalOption>

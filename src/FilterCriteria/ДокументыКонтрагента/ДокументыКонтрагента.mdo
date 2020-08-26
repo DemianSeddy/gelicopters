@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b8e787a-a6b8-4432-933e-67ff5ef36b4b">
+  <producedTypes>
+    <listType typeId="739bce30-be0d-4086-b08f-50550af80276" valueTypeId="5e94a23d-0ed3-4884-a0ac-86a48cd8adb3"/>
+    <managerType typeId="8547d6ae-9190-41ca-b621-7df4957d4a4c" valueTypeId="4afeeff1-8049-49be-a067-d44fa369eb09"/>
+  </producedTypes>
+  <name>ДокументыКонтрагента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы контрагента</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Контрагенты</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <content>Document.СписаниеСБанковскогоСчета.Attribute.Поставщик</content>
+  <content>Document.ПоступлениеТоваров.Attribute.Поставщик</content>
+  <content>Document.ЗаказПоставщику.Attribute.Поставщик</content>
+  <content>Document.ОплатаЧерезКассу.Attribute.Плательщик</content>
+  <content>Document.РеализацияТоваров.Attribute.Покупатель</content>
+  <content>Document.ЗаказПокупателя.Attribute.Покупатель</content>
+  <content>Document.ПоступлениеНаБанковскийСчет.Attribute.Покупатель</content>
+  <content>Document.ПоступлениеЧерезКассу.Attribute.Покупатель</content>
+  <defaultForm>FilterCriterion.ДокументыКонтрагента.Form.ФормаСписка</defaultForm>
+  <forms uuid="cc9f3984-36b2-43bd-b35b-d68117b2b246">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:FilterCriterion>

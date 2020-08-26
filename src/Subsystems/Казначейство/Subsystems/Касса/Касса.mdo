@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="efe5df14-32ac-49ef-b86c-7aaff568ad8e">
+  <name>Касса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Касса</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Касса</picture>
+  </picture>
+  <content>Document.ОплатаЧерезКассу</content>
+  <content>Document.ПоступлениеЧерезКассу</content>
+  <parentSubsystem>Subsystem.Казначейство</parentSubsystem>
+</mdclass:Subsystem>

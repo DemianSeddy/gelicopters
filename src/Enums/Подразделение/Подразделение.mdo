@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84682943-1d19-468d-8fbe-82a635f6419e">
+  <producedTypes>
+    <refType typeId="db8b10ac-d859-4288-84c5-4c262792a7da" valueTypeId="bf965611-348f-4a9e-bf06-a82cd175c7f2"/>
+    <listType typeId="56163421-607b-4078-b1f1-8ec9b102e81a" valueTypeId="a464575c-a750-45a2-ac26-dbb1c4ce14ba"/>
+    <managerType typeId="4f80b22c-2cc0-480e-a2fb-50977ec99328" valueTypeId="f10c25a6-ec74-4a08-81e2-7e9733100581"/>
+  </producedTypes>
+  <name>Подразделение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подразделение</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c36549f4-6af7-475a-8dbd-07bd5d5952b7">
+    <name>Главное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Главное</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2b323918-e321-4d04-87d4-001cfa0c20c7">
+    <name>Цех</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цех</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="82b051eb-9c31-4f91-8a12-e4eca4bd2ff3">
+    <name>Аэродром</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аэродром</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

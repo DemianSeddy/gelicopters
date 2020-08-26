@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25387295-aefe-4490-b7fd-71ad78b2f67e">
+  <producedTypes>
+    <selectionType typeId="8f9ebede-03b7-423b-89b6-bf09e426044d" valueTypeId="89718295-688d-4e14-b343-2d6c6fbdca01"/>
+    <listType typeId="5e57b839-7148-476d-a251-67c5b68cb802" valueTypeId="38b3907f-0507-42d2-a30f-b149573df1a4"/>
+    <managerType typeId="6af519be-2902-49e3-9fe6-29df1f3a1e88" valueTypeId="bfa6ec54-ef0d-4490-a981-6495ad30fb4b"/>
+  </producedTypes>
+  <name>СкладскиеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>СкладскиеДокументы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.РеализацияТоваров</registeredDocuments>
+  <registeredDocuments>Document.ПоступлениеТоваров</registeredDocuments>
+  <columns uuid="a294ca1a-5a38-474b-b4e5-3b971e9587e5">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <references>Document.ПоступлениеТоваров.Attribute.Поставщик</references>
+    <references>Document.РеализацияТоваров.Attribute.Покупатель</references>
+  </columns>
+  <columns uuid="a5dae1fe-29d8-4afe-90ea-e02aec31a6f8">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <references>Document.РеализацияТоваров.Attribute.Склад</references>
+    <references>Document.ПоступлениеТоваров.Attribute.Склад</references>
+  </columns>
+  <columns uuid="09948e73-3238-40d8-8f06-67f035848acd">
+    <name>Заказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ</value>
+    </synonym>
+    <references>Document.ПоступлениеТоваров.Attribute.Заказ</references>
+    <references>Document.РеализацияТоваров.Attribute.Заказ</references>
+  </columns>
+</mdclass:DocumentJournal>
